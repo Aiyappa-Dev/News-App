@@ -137,7 +137,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    /*test*/
+                    /*testing*/
                     positionClick=i;
                     Intent ii = new Intent(context, NewsDetailsActivity.class);
                     ii.putExtra("Id",articles.get(i).getId());
