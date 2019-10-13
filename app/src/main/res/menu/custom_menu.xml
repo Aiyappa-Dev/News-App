@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item android:id="@+id/search"-->
+<!--        android:icon="@drawable/ic_wifi_black_24dp"-->
+<!--        android:title="Logout"-->
+<!--        app:showAsAction="ifRoom"-->
+<!--        />-->
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_exit"
+        android:title="Stop Seeing Ads"
+        />
+   <!-- <item android:id="@+id/add_preference"
+        android:icon="@drawable/ic_exit"
+        android:title="Ad Preferences"
+        />-->
+
+    <!--<item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:theme="@android:style/Theme.Holo.Light"
+        android:orderInCategory="100"/>-->
+</menu>

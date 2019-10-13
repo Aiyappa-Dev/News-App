@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AdPreferences">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/color_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/toolBar"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>-->
+    <ImageView
+        android:id="@+id/imgView_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/infomo"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/imgView_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="GUEST USER INTERESTS"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display2"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/text_display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="For the purpose of this demonstration please enter examples of the Guests Users Interests."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display3"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/text_display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="User Interests"/>
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:id="@+id/add_preference"
+        android:layout_marginStart="10dp"
+    app:layout_constraintTop_toBottomOf="@id/text_display3"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display4"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/add_preference"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Please note that ads will be selected based on the User Profile and User Interests criteria."/>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display5"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/text_display4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Ads can be turned off/on or user details adjusted at any time via the settings [:] button at the top right corner of your screen."/>
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display6"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/text_display5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="We thank you for considering Infomo."/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done"
+        android:background="@color/color_blue"
+        android:text="Done"
+        app:layout_constraintTop_toBottomOf="@+id/text_display6"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

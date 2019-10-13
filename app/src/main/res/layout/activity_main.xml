@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserProfile">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgView_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/infomo"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/imgView_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="GUEST USER PROFILE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_display2"
+        android:textColor="@color/black"
+        android:paddingEnd="20dp"
+        android:gravity="start"
+        android:paddingStart="30dp"
+        android:layout_margin="20dp"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/text_display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="For the purpose of this demonstration please enter some basic user details."/>
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="17sp"
+     android:layout_marginTop="39dp"
+        app:layout_constraintTop_toBottomOf="@id/text_display2"
+        android:layout_marginStart="50dp"
+     app:layout_constraintStart_toStartOf="parent"
+        android:text="Name:"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+         app:layout_constraintTop_toBottomOf="@id/text_display2"
+          app:layout_constraintStart_toEndOf="@id/name"
+        android:hint="Full Name" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_edit"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:layout_marginStart="5dp"
+                android:imeOptions="actionNext"
+                android:focusableInTouchMode="true"
+                android:gravity="left"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+
+                />
+    </com.google.android.material.textfield.TextInputLayout>
+        
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="17sp"
+     android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginStart="50dp"
+        android:text="Gender:"/>
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+app:layout_constraintTop_toBottomOf="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/gender"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:textSize="17sp"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:textSize="17sp"
+            android:layout_alignLeft="@+id/radioGroup1"
+            android:layout_below="@+id/radioGroup1"
+            android:text="Female" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:textSize="17sp"
+            android:layout_alignLeft="@+id/radioGroup1"
+            android:layout_below="@+id/radioGroup1"
+            android:text="Others" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/gender"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="50dp"
+        android:text="Age:"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/gender"
+            app:layout_constraintStart_toEndOf="@+id/age"
+            android:layout_marginEnd="8dp"
+            android:hint="Enter Age" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/age_edit"
+                android:textColor="@color/black"
+                android:gravity="start"
+                android:maxLines="1"
+                android:maxLength="3"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:textSize="17sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/next"
+    android:background="@color/color_blue"
+    android:text="Next"
+   app:layout_constraintTop_toBottomOf="@+id/textInputLayout1"
+    android:layout_marginTop="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_marginBottom="40dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:textColor="@color/white"/>
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+       &lt;!&ndash; <Button
+            android:id="@+id/loginInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_bg"
+
+            android:text="Start Viewing Ads"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            />&ndash;&gt;
+       &lt;!&ndash; <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_below="@+id/imgView_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgView_logo"
+            android:visibility="visible">
+          &lt;!&ndash;  <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/infomo_demo_app"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/color_blue"
+                android:textSize="30sp"/>&ndash;&gt;
+            &lt;!&ndash;<LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/tv_login">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Enter Your Name"
+                        android:textAllCaps="true"
+                        android:textSize="15sp"
+                        android:textColor="@color/color_blue"/>
+                    <EditText
+                        android:id="@+id/userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:background="@drawable/et_bg"/>
+                </LinearLayout>
+                &lt;!&ndash;<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Password"
+                        android:textAllCaps="true"
+                        android:textSize="15sp"
+                        android:textColor="#000"/>
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:background="@drawable/et_bg"/>
+                </LinearLayout>&ndash;&gt;
+            </LinearLayout>&ndash;&gt;
+
+
+            &lt;!&ndash;<com.google.android.gms.common.SignInButton
+                android:id="@+id/googleSignInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/loginInButton"
+                android:layout_alignStart="@+id/loginInButton"
+                android:layout_alignEnd="@+id/loginInButton"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#000"
+                android:textSize="16sp" />&ndash;&gt;
+        </RelativeLayout>&ndash;&gt;
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

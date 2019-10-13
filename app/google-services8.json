@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "855429015687",
+    "firebase_url": "https://infomotest.firebaseio.com",
+    "project_id": "infomotest",
+    "storage_bucket": "infomotest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855429015687:android:8aac9c0760053404fdf022",
+        "android_client_info": {
+          "package_name": "com.thedascapital.www.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855429015687-4i32nhn0kkjo57kfvb9gjs1bjsd398b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Vm74BYERS97xZQbpIBdddqyVy5m7qC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855429015687-4i32nhn0kkjo57kfvb9gjs1bjsd398b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855429015687:android:f1ca5c26cb474960fdf022",
+        "android_client_info": {
+          "package_name": "com.thedascapital.www.newsapp8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855429015687-4i32nhn0kkjo57kfvb9gjs1bjsd398b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Vm74BYERS97xZQbpIBdddqyVy5m7qC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855429015687-4i32nhn0kkjo57kfvb9gjs1bjsd398b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
