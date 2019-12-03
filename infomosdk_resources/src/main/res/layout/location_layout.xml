@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            android:layout_gravity="left|top"
+            android:background="@color/theme_color"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbarlayout">
+
+
+    </com.google.android.gms.maps.MapView>
+
+    <ImageView
+        android:id="@+id/pin"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pin" />
+
+    <RelativeLayout
+        android:id="@+id/rlvvv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appbarlayout">
+
+        <View
+            android:id="@+id/centerview"
+            android:layout_width="0.1dp"
+            android:layout_height="0.1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"></View>
+
+        <RelativeLayout
+            android:id="@+id/rlv1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/rlv2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rectangle_shape"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:text="Share this location"
+                android:textColor="@color/theme_color" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:maxLines="1"
+                android:text="Address" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlv2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/centerview"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/arrow_shape"
+            android:rotation="180" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pbLocationProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"></ProgressBar>
+</RelativeLayout>

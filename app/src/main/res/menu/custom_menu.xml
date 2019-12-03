@@ -10,7 +10,11 @@
         android:icon="@drawable/ic_exit"
         android:title="Stop Seeing Ads"
         />
-   <!-- <item android:id="@+id/add_preference"
+    <item android:id="@+id/about_app"
+        android:icon="@drawable/ic_exit"
+        android:title="About"
+        />
+    <!-- <item android:id="@+id/add_preference"
         android:icon="@drawable/ic_exit"
         android:title="Ad Preferences"
         />-->

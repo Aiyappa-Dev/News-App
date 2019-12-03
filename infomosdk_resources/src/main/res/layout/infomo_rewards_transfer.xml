@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/konvers_margin"
+    android:paddingRight="@dimen/konvers_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/rewards_icon_transfer"
+            android:layout_width="@dimen/infomo_rewards_icon_left"
+            android:layout_height="@dimen/infomo_rewards_icon_left"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_rewards" />
+
+        <TextView
+            android:id="@+id/available_for_transfer_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_toLeftOf="@+id/infomo_more_info_available"
+            android:layout_toRightOf="@+id/rewards_icon_transfer"
+            android:text="@string/available_for_transfer"
+            android:textColor="@color/black"
+            android:textSize="@dimen/infomo_rewards_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_available"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/infomo_devider" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_wallet"
+        android:textSize="@dimen/konvers_text"
+        android:textColor="@color/konvers_text_color"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/dropdown_wallets"
+        style="@style/editText_style"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="12dp"
+        android:cursorVisible="false"
+        android:drawableEnd="@drawable/drop_down_arrow_black"
+        android:drawableRight="@drawable/drop_down_arrow_black"
+        android:focusable="false"
+        android:hint="@string/select_wallet"
+        android:textColorHint="@color/color_hint_edittext"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_amount"
+        android:textSize="@dimen/konvers_text"
+        android:textColor="@color/konvers_text_color"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.9">
+
+        <Button
+            android:id="@+id/btnTransfer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_10"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text"
+            android:layout_weight="0.3" />
+
+        <Button
+            android:id="@+id/btnTransfer25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_25"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="@dimen/konvers_custom_margin" />
+
+        <Button
+            android:id="@+id/btnTransfer50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_50"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text"
+            android:layout_marginLeft="@dimen/konvers_custom_margin"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/konvers_custom_margin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:weightSum="0.6">
+
+        <Button
+            android:id="@+id/btnTransfer75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_75"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text"
+            android:layout_weight="0.3" />
+
+        <Button
+            android:id="@+id/btnTransfer100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_100"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text"
+            android:layout_marginLeft="@dimen/konvers_custom_margin"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTotalAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_available_amount"
+        android:textColor="@color/konvers_text_color"
+        android:textSize="@dimen/konvers_text"
+        android:layout_marginTop="30dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_transfer"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/button_separator"
+        android:layout_toRightOf="@+id/button_separator"
+        android:text="TRANSFER"
+        android:layout_marginTop="30dp"
+        android:textSize="@dimen/konvers_text"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

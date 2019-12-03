@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="HeaderBar">
+        <item name="android:background">@color/toolbar_background</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/toolbar_background</item>
+        <item name="colorPrimary">@color/toolbar_background</item>
+        <item name="colorPrimaryDark">@color/toolbar_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ButtonStyle">
+        <item name="android:fontFamily">@font/my_custom_font</item>
+        <item name="android:textSize">@dimen/list_text_label_size</item>
+        <item name="android:textColor">@drawable/dark_button_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/dark_button_background_color</item>
+    </style>
+
+    <style name="CheckBoxBackgound" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/button_color</item>
+        <item name="colorControlActivated">@color/button_color</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/button_color</item>
+        <item name="android:disableDependentsState">@color/button_color</item>
+    </style>
+
+    <style name="TabLayoutTextStyleSelected">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="editText_style">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CancelandBackButtonStyle">
+        <item name="android:fontFamily">@font/my_custom_font</item>
+        <item name="android:textSize">@dimen/list_text_label_size</item>
+        <item name="android:textColor">@drawable/off_button_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/off_button_background_color</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/floating_label_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

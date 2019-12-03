@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/customAdLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/custom_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/custom_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_logo"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="custom text"
+            android:textColor="@color/dark_grey"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_text"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edges"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/custom_inbox_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edges"
+            android:text="View Later"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sms_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/sender_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user_image_small_background" />
+
+        <TextView
+            android:id="@+id/sender_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/sender_image"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/sender_name"
+            android:layout_below="@id/sender_name"
+            android:textColor="@color/white" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@id/sender_name"
+            android:layout_below="@+id/time"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/sender_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/close_sms_layout_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/close_icon" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_edges"
+        android:text="Cancel"
+        android:textColor="@color/white" />
+</RelativeLayout>

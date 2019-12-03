@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_help_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:text="Sample"
+            android:textColor="@color/black"
+            android:textSize="16sp"></TextView>
+
+        <ImageView
+            android:id="@+id/imageView_close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:src="@drawable/baseline_close" />
+
+        <TextView
+            android:id="@+id/help_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/imageView_close"
+            android:text="Sample dshdg jfhsd dfjsdhd sddfhsdkhf dsfksdff gdffsdf dfjgsdgf gfdjgsdjf"
+            android:layout_below="@+id/help_title"
+            android:textColor="#80000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/konvers_margin"></TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="settings_title">Adimoro SDK Settings</string>
+    <string name="show_ad_settings">Show Ad Settings</string>
+    <string name="show_sms">Show Ad on SMS</string>
+    <string name="show_in_call">Show Ad on Incoming Call</string>
+    <string name="show_end_call">End of Call</string>
+    <string name="show_lock">Show Ad on Unlock Screen</string>
+    <string name="show_location">Show Location based Ads</string>
+    <string name="show_push">Display Push ads</string>
+    <string name="show_beacon">Show Beacon Ads</string>
+    <string name="show_stop_ads">Stop ads when app is terminated</string>
+    <string name="sync_settings">Sync Settings</string>
+    <string name="server_settings">Server Settings</string>
+    <string name="sync_when_wifi">Sync only when connected to wifi</string>
+    <string name="sync_every_x_hrs">Sync Ads every  </string>
+    <string name="sync_location_ads">Sync Location Ads</string>
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <!--<string name="ads_between">Show ads between:</string>-->
+    <string name="ads_between">Only from</string>
+    <string name="limit_ads">Limit ad presentation frequency</string>
+    <!-- <string name="limit_ads_per_hour">Limit ad presentation to:</string>-->
+    <string name="limit_ads_per_hour">Number of ads per day</string>
+
+
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <string name="geofence_transition_notification_text">Some interesting stuff to view</string>
+    <string name="offline_notification">Come online to claim your offline points else will be expired</string>
+    <string name="offline_notification_title">Infomo Offline Points</string>
+    <string name="app_settings">APP SETTINGS</string>
+    <string name="continue_text">Continue</string>
+    <string name="settings">Settings</string>
+    <string name="my_profile">My Profile</string>
+    <string name="adsetting">Rewards</string>
+    <string name="adsettings_heading">Ad Preferences</string>
+    <string name="user_preferences">Rewards</string>
+    <string name="user_preferences_heading">Member Interest</string>
+    <string name="txt_load_more">Load More...</string>
+    <string name="txt_accept">ACCEPT</string>
+    <string name="txt_decline">DECLINE</string>
+    <string name="txt_infomo_terms_conditions">Lorem ipsum dolor sit amet, doctus antiopam has eu, error ornatus maiestatis ius eu. Soleat omnesque officiis cu mea, ius ei purto nobis. Stet oportere no quo, qui an propriae salutatus. Nec graeci concludaturque ne, in evertitur intellegam mea. Per omnes menandri singulis ut, diam etiam assum ut nam. Quando laudem nam at, suas tation senserit id eam. Cu has viris definiebas efficiantur, sanctus perpetua similique ea sit, in legimus denique periculis vis. Vix eius docendi cotidieque ea, ne mel dicat percipit sapientem. Eos ex patrioque rationibus. Te augue perfecto ius, sed veri quando prodesset id. Ne nam patrioque efficiantur. Tollit dicant rationibus et pri. Mea unum vulputate percipitur in. Doming abhorreant per ei, sit ut putent nusquam percipit, id paulo labores vis. Prompta imperdiet mea at. In eleifend eloquentiam vel. Mel ex nonumy labore, id est enim consulatu, pro semper timeam appetere no. Ne sea duis suscipiantur, vix omnes persecuti ea. Vitae mucius est at. Eleifend referrentur mel ex. Malis impetus inermis ea mei, vis elitr vocibus ut. Modo ridens vis et, omittantur persequeris suscipiantur pri ne.</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_submit">Submit</string>
+    <string name="skip">SKIP</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="outgoing_call">Outgoing Call</string>
+    <string name="call_in_progress">Call in Progress</string>
+    <string name="decline">DECLINE</string>
+    <string name="accept">ACCEPT</string>
+    <string name="end">END</string>
+    <string name="enter_status_update">Enter status update</string>
+    <string name="reset">Reset</string>
+
+    <string name="help_summary">This screen presents an active summary of your eligible points and your credited points. \nEligible points can only be converted to Credited points that can be redeeemed as and when you connect to the internet via mobile data or wi-fi. \nTo fully utilise your Eligible points we suggest that you connect to the internet at least on a daily basis.</string>
+    <string name="help_history">This screen presents a chronological list of Rewards transactions. \nPlease note that different interactions with any ad may produce a different number of points. For instance, a response to an ad (sms, call, etc.) will result in more points than a simple view.</string>
+    <string name="help_credited_points">Defined as the sum of Eligible points that have been reconciled. \nEligible points can only become Credited points when connected to the internet. \nWe recommend that members connect their phone to the internet regularly to ensure that all Eligible points are converted to Credited points.</string>
+    <string name="help_eligible_points">Eligible points are earned whenever you interact with an Ad. \nEligible points can only become Credited points when connected to the internet. \nWe recommend that members connect their phone to the internet regularly to ensure that all Eligible points are converted to Credited points.</string>
+    <string name="help_current_points">Defined as the sum of Eligible points that have been reconciled. \nEligible points can only become Credited points when connected to the internet. \nWe recommend that members connect their phone to the internet regularly to ensure that all Eligible points are converted to Credited points.</string>
+    <string name="help_current_transfer">This screen is used if /when you wish to redeem Credited points and transfer their cash value into a nominated wallet. \nIt is necessary to have created/selected at least one wallet to redeem credited points. \nBy selecting a wallet and entering a credited value, funds are credited to your wallet and credited points debited from your Credited points.</string>
+    <string name="help_available_for_transfer">Will be updated soon...</string>
+    <string name="help_transferred_to_date">Will be updated soon...</string>
+
+    <string name="ad_settings_help_dialog_text">Please select the events/times when you are prepared to receive personalised ads. \nIf &quot;Stop sending ads when app closed&quot; button is off, you will continue to receive ads even if you close the MyBSNL app. \nIf &quot;Sync only when connected to Wi-Fi&quot; is off, you will only be able to convert eligible to credited points whenever and wherever you have a mobile data connection.</string>
+    <string name="interest_help_dialog_text">Please select those Topics of Interests that are personally relevant to you. The topics selected will determine the categories of personalised advertising that will receive.</string>
+
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+
+    <string name="help_navigation_prev_button_name">Prev</string>
+    <string name="help_navigation_next_button_name">Next</string>
+    <string name="help_navigation_done_button_name">Done</string>
+
+    <string name="help_screen_mybsnl_rewards">Receive new features, added benefits, improved performance, and smoother experience with the latest release of our MyBSNL Rewards app.</string>
+    <string name="help_screen_mynsnl_rewards_program">The MyBSNL Rewards program allows any registered Member to earn reward points for participating in curated promotions &amp; special offers. \nThese reward points can be converted to cash at any time.</string>
+    <string name="help_screen_member_profile">To join the MyBSNL Rewards program simply provide your basic details: Home Town/City, Gender &amp; Year of Birth. \nUpon completing your Member Profile you will immediately gain membership and start earning reward points.</string>
+    <string name="help_screen_optin_optout">By default you will be set to Opt-In status meaning that you will receive curated promotions &amp; special offers. \nYou may Opt-Out should you want to stop receiving promotions &amp; special offers and stop earning reward points. You may opt-in again at any time.</string>
+    <string name="help_screen_member_preferences">The Member Preference screen allows you to determine when &amp; where you receive promotions &amp; special offers. You may also limit the times and frequency of these. \nYou may adjust these preferences at any time to best suit your requirements.</string>
+    <string name="help_screen_addfone">An added benefit of MyBSNL Rewards membership is immediate access to the MyBSNL Rewards AddFone service. \nSimilar in scope to WhatsApp, AddFone provide secured private calls/chats between members of your address book.</string>
+
+    <string name="available_for_transfer">Total available for transfer: \u20B9 %1$f</string>
+    <string name="transferred_to_date">Total transferred till date: \u20B9 %1$f</string>
+    <string name="current_transfer_summary">Current Transfer Summary</string>
+    <string name="current_points_summary">Current Points Summary</string>
+    <string name="select_wallet">Select Wallet</string>
+    <string name="register_wallet">Register New Wallet</string>
+    <string name="select_amount">Select Amount</string>
+    <string name="amount_10">\u20B9 10 </string>
+    <string name="amount_25">\u20B9 25 </string>
+    <string name="amount_50">\u20B9 50 </string>
+    <string name="amount_75">\u20B9 75 </string>
+    <string name="amount_100">\u20B9 100 </string>
+    <string name="total_available_amount">TOTAL AVAILABLE AMOUNT: \u20B9 %1$d</string>
+    <string name="registered_wallet">Registered Wallets</string>
+    <string name="phone">Mobile #</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="education_status">Education Status</string>
+    <string name="professional_status">Professional Status</string>
+    <string name="employment_status">Employment Status</string>
+    <string name="occupation">Occupation</string>
+    <string name="submit">Submit</string>
+    <string name="nothanks_button">NO THANKS</string>
+    <string name="save">SAVE</string>
+    <string name="dob_hint">DD-MM-YYYY</string>
+    <string name="my_profile_help_dialog_text">Please enter your personal profile required to become a member of My BSNL Rewards and start earning cash rewards today.</string>
+    <string name="city_town_hint">City/Town (required)</string>
+    <string name="select_gender">Gender (required)</string>
+    <string name="year_of_birth_hint">Year of Birth (required- YYYY)</string>
+
+    <string name="local_notification_title">My BSNL Rewards</string>
+    <string name="local_notification_message">Click here to earn rewards.</string>
+</resources>

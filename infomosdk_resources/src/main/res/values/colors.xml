@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_grey">#424242</color>
+    <color name="very_dark_grey">#333536</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#eaeaea</color>
+    <color name="transparent">#80000000</color>
+    <color name="orange">#D2691E</color>
+    <color name="action_text">#BCBCBC</color>
+    <color name="action_layout_background">#131313</color>
+    <color name="action_button_background">#222222</color>
+    <color name="action_button_outline">#494949</color>
+    <color name="theme_blue">#3F51B5</color>
+    <color name="toolbarBlue">#304574</color>
+    <color name="seperator">#CCCFD1</color>
+    <color name="titles">#3F5388</color>
+    <color name="black">#000000</color>
+    <color name="textcolor">#696969</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="button_color">#0061B0</color>
+
+    <color name="toolbar_background">#0061B0</color>
+    <color name="theme_color">#009688</color>
+
+    <color name="konvers_toolbar_background">#0061B0</color>
+    <color name="tab_background_color">#ED1B24</color>
+    <color name="tab_text_color">#FFFFFF</color>
+    <color name="konvers_text_color">#0061B0</color>
+    <color name="konvers_text_color_secondary">#BCBDC1</color>
+    <color name="background">#ffffff</color>
+    <color name="konvers_chat_background_sent">#D5F5E3</color>
+    <color name="konvers_chat_time">#BCBDC1</color>
+    <color name="background_edittext">#400061B0</color>
+    <color name="konvers_incoming_call">#ED1B24</color>
+    <color name="infomo_devider">#40ED1B24</color>
+
+    <color name="help_screen_description_color">#8A000000</color>
+    <color name="color_hint_edittext">#61000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="grey_color_text">#707070</color>
+    <color name="dialog_view_seperator">#40ED1B24</color>
+    <color name="floating_label_color">#0061B0</color>
+</resources>

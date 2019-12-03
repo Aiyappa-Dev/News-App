@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_interest">
+        <item>Arts and Entertainment</item>
+        <item>Autos and Motoring</item>
+        <item>Business</item>
+        <item>Education and Training</item>
+        <item>Employment</item>
+        <item>Fashion</item>
+        <item>Food and Drink </item>
+        <item>Health and Wellbeing</item>
+        <item>Home and Garden</item>
+        <item>Personal Care</item>
+        <item>Shopping</item>
+        <item>Shop</item>
+        <item>Travel</item>
+    </string-array>
+    <string-array name="konvers_tabs">
+        <item>Chats</item>
+        <item>Status</item>
+        <item>Calls</item>
+    </string-array>
+    <string-array name="from_values">
+        <item>00:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+    <string-array name="to_values">
+        <item>00:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+    <string-array name="per_hour">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="marital_status_array">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="education_status_array">
+        <item>No formal education</item>
+        <item>Primary Education</item>
+        <item>University Graduate - General</item>
+        <item>University Graduate - Professional</item>
+        <item>Post Graduate - General</item>
+        <item>Post Graduate - Professional</item>
+    </string-array>
+
+    <string-array name="professional_status_array">
+        <item>Administration</item>
+        <item>Arts and Entertainment</item>
+        <item>Construction</item>
+        <item>Engineering</item>
+        <item>Farming</item>
+        <item>Hospitality</item>
+        <item>Manufacturing</item>
+        <item>Science</item>
+        <item>Utilities</item>
+        <item>Professional</item>
+        <item>Retail</item>
+        <item>Transport &amp; Distribution</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="employment_status_array">
+        <item>Student</item>
+        <item>Homemaker</item>
+        <item>Employee</item>
+        <item>Employer</item>
+        <item>Retiree</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="occupation_array">
+        <item>Manager</item>
+        <item>Professional</item>
+        <item>Technician</item>
+        <item>Clerical/Support</item>
+        <item>Sales/Services</item>
+        <item>Agricultural/Fishery</item>
+        <item>Craft/Trade</item>
+        <item>Plant/Machinery Operator</item>
+        <item>Elementary Occupation</item>
+        <item>Armed Forces</item>
+    </string-array>
+
+    <string-array name="age_group_array">
+        <item>1&#8211;17</item>
+        <item>18&#8211;34</item>
+        <item>35&#8211;50</item>
+        <item>51+</item>
+    </string-array>
+
+</resources>

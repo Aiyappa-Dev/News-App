@@ -1,0 +1,2 @@
+include ':app', ':infomosdk-1.5',  ':infomosdk_resources', ':infomosdk-debug'
+rootProject.name='News App'

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_permission_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/konvers_toolbar_background">
+
+        <TextView
+            android:id="@+id/permission_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="App Permissions"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_permission_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_permission_title"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/permission_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Messgae"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/permission_ad_image"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_below="@+id/permission_message"
+            android:layout_marginTop="-1dp"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/permission_ad_image">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/permissionBtn1"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="OK" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

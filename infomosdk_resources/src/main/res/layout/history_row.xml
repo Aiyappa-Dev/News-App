@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/konvers_margin"
+    android:paddingRight="@dimen/konvers_margin">
+
+    <TextView
+        android:id="@+id/tv_history_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:text="Reference number if it a big"
+        android:ellipsize="end"
+        android:textSize="@dimen/infomo_history_text"
+        android:gravity="left"
+        android:lines="1"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_history_date_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:text="Date/Time"
+        android:layout_marginLeft="5dp"
+        android:textSize="@dimen/infomo_history_text"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_history_points"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="123"
+        android:textSize="@dimen/infomo_history_text"
+        android:textColor="@color/black"
+        android:gravity="right"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center|start"
+            android:text="aaaaaaaaaaaaaaaaaaaa"
+            android:textColor="@color/dark_grey"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/button_color" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/select_item_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@color/button_color"
+        android:dividerHeight="1dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+</RelativeLayout>

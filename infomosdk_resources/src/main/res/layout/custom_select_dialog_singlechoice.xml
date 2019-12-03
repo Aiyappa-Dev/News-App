@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckedTextView
+        android:id="@+id/text"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?android:attr/textColorAlertDialogListItem"
+        android:paddingStart="12dip"
+        android:paddingEnd="7dip"
+        android:paddingLeft="12dip"
+        android:paddingRight="7dip"
+        android:ellipsize="marquee" />
+
+
+</LinearLayout>

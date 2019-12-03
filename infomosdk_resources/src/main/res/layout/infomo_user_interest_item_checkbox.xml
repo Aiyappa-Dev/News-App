@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/interest_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/show_sms"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_infomo_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:theme="@style/CheckBoxBackgound"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radio_infomo_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/CheckBoxBackgound"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/date_of_birth"
+            style="@style/editText_style"
+            android:layout_width="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:drawableEnd="@drawable/dob_calender"
+            android:drawableRight="@drawable/dob_calender"
+            android:hint="DD-MM-YYYY"
+            android:inputType="date"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColorHint="#BCBDC1"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="top|left"
+            android:hint="Enter text here"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            android:textColorHint="#BCBDC1"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/dividerView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/interest_title"
+            android:layout_marginTop="8dp"
+            android:background="#F0F3F4"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_pending_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/konvers_toolbar_background">
+
+        <TextView
+            android:id="@+id/pending_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="Registration"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pending_ad_image"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_below="@+id/rl_pending_title"
+        android:layout_marginTop="-1dp"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/rl_pending_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pending_ad_image"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/pending_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Messgae"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/pending_message"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/pendingBtn1"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Register" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/pendingBtn2"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/pendingBtn3"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Right" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

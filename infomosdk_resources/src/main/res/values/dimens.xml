@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_heading_textsize">18sp</dimen>
+    <dimen name="standard_textsize">16sp</dimen>
+    <dimen name="list_text_label_size">16sp</dimen>
+    <dimen name="list_text_label_description_size">12sp</dimen>
+    <dimen name="list_text_label_click">13sp</dimen>
+    <dimen name="konvers_tab_text">18sp</dimen>
+    <dimen name="konvers_text">16sp</dimen>
+    <dimen name="konvers_text_secondary">12sp</dimen>
+    <dimen name="konvers_margin">16dp</dimen>
+    <dimen name="konvers_chat_time">10sp</dimen>
+    <dimen name="konvers_chat_tick">20dp</dimen>
+    <dimen name="konvers_chat_reverse_side_margin">50dp</dimen>
+    <dimen name="konvers_image_height">250dp</dimen>
+    <dimen name="konvers_incoming_call">20sp</dimen>
+    <dimen name="infomo_rewards_text">15sp</dimen>
+    <dimen name="infomo_rewards_icon_left">40dp</dimen>
+    <dimen name="infomo_rewards_icon">25dp</dimen>
+    <dimen name="infomo_ad_button">40dp</dimen>
+    <dimen name="infomo_video_ad_play_pause_button">30dp</dimen>
+    <dimen name="infomo_ad_button_layout_padding">9dp</dimen>
+    <dimen name="infomo_ad_layout_top">2dp</dimen>
+    <dimen name="infomo_history_text">13sp</dimen>
+
+    <dimen name="konvers_custom_margin">10dp</dimen>
+    <dimen name="heading_textsixe">20sp</dimen>
+    <dimen name="left_right_top_bottom_margin_standard">16dp</dimen>
+    <dimen name="left_right_top_bottm_marging_custom">10dp</dimen>
+    <dimen name="left_right_margin_standard_half_value">8dp</dimen>
+    <dimen name="alertdialog_title_textsize">18sp</dimen>
+</resources>

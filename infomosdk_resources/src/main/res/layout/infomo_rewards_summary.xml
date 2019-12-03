@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/konvers_margin"
+    android:paddingRight="@dimen/konvers_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/konvers_custom_margin">
+
+        <TextView
+            android:id="@+id/current_points_heading_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="current points summary"
+            android:textAllCaps="true"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_points"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/rewards_icon"
+            android:layout_width="@dimen/infomo_rewards_icon_left"
+            android:layout_height="@dimen/infomo_rewards_icon_left"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_rewards" />
+
+        <TextView
+            android:id="@+id/rewards_credited_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_toLeftOf="@+id/infomo_more_info_credited"
+            android:layout_toRightOf="@+id/rewards_icon"
+            android:text="Credited Points: 9999999"
+            android:textColor="@color/black"
+            android:textSize="@dimen/infomo_rewards_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_credited"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/infomo_devider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/rewards_icon_eligible"
+            android:layout_width="@dimen/infomo_rewards_icon_left"
+            android:layout_height="@dimen/infomo_rewards_icon_left"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_rewards" />
+
+        <TextView
+            android:id="@+id/rewards_eligible_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_toLeftOf="@+id/infomo_more_info_eligible"
+            android:layout_toRightOf="@+id/rewards_icon_eligible"
+            android:text="Eligible Points: 9999999"
+            android:textColor="@color/black"
+            android:textSize="@dimen/infomo_rewards_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_eligible"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="1dp"
+            android:background="@color/infomo_devider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/transfer_summary_heading_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/konvers_custom_margin">
+
+        <TextView
+            android:id="@+id/current_transfer_heading_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="current transfer summary"
+            android:textAllCaps="true"
+            android:textColor="@color/konvers_text_color"
+            android:textSize="@dimen/konvers_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_transfer"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/transfer_summary_first_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/rewards_icon_transfer"
+            android:layout_width="@dimen/infomo_rewards_icon_left"
+            android:layout_height="@dimen/infomo_rewards_icon_left"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_rewards" />
+
+        <TextView
+            android:id="@+id/available_for_transfer_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_toLeftOf="@+id/infomo_more_info_available"
+            android:layout_toRightOf="@+id/rewards_icon_transfer"
+            android:text="Credited Points: 9999999"
+            android:textColor="@color/black"
+            android:textSize="@dimen/infomo_rewards_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_available"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/infomo_devider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/transfer_summary_second_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/rewards_icon_todate"
+            android:layout_width="@dimen/infomo_rewards_icon_left"
+            android:layout_height="@dimen/infomo_rewards_icon_left"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_rewards" />
+
+        <TextView
+            android:id="@+id/transfered_to_date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/konvers_margin"
+            android:layout_toLeftOf="@+id/infomo_more_info_todate"
+            android:layout_toRightOf="@+id/rewards_icon_todate"
+            android:text="Eligible Points: 9999999"
+            android:textColor="@color/black"
+            android:textSize="@dimen/infomo_rewards_text" />
+
+        <ImageView
+            android:id="@+id/infomo_more_info_todate"
+            android:layout_width="@dimen/infomo_rewards_icon"
+            android:layout_height="@dimen/infomo_rewards_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_infomo_help" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="1dp"
+            android:background="@color/infomo_devider" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_status_my_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_my_status"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/defaultcontact" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_my_status"
+            android:layout_toEndOf="@+id/iv_my_status">
+
+            <TextView
+                android:id="@+id/tv_my_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Status"
+                android:textColor="#0061B0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_tap_to_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_my_status"
+                android:text="Tap to add status update"
+                android:textColor="#BCBDC1"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_my_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circle_button_background">
+
+            <com.adimoro.business.adimorosdk.components.RoundedImageView
+                android:id="@+id/txt_my_status_profile"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:padding="2dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/defaultcontact" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_my_status"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_my_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/konvers_margin"
+            android:gravity="center" />
+    </RelativeLayout>
+</RelativeLayout>
