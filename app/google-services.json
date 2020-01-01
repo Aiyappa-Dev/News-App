@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "523179024052",
-    "firebase_url": "https://pushlogictestproject.firebaseio.com",
-    "project_id": "pushlogictestproject",
-    "storage_bucket": "pushlogictestproject.appspot.com"
+    "project_number": "281815554313",
+    "firebase_url": "https://admioro-demo.firebaseio.com",
+    "project_id": "admioro-demo",
+    "storage_bucket": "admioro-demo.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:523179024052:android:443b46b44e60a202e6c1e1",
+        "mobilesdk_app_id": "1:281815554313:android:edbb96e2bb47f825a2dbd8",
         "android_client_info": {
-          "package_name": "com.aimright.admin.demoapp1"
+          "package_name": "com.aimright.admin.demoapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "523179024052-lie3bn8ar6v4rin2aa1js8eqi21epkv2.apps.googleusercontent.com",
+          "client_id": "281815554313-ohqr4ujmsdtmqd78120r8jvtn4n32j8q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDxv247cJhaSiIQkbkMk-0yCk3YJVS6Rys"
+          "current_key": "AIzaSyCGYuoH73efrQkIpju6dtnww45LmvaTrUY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "523179024052-lie3bn8ar6v4rin2aa1js8eqi21epkv2.apps.googleusercontent.com",
+              "client_id": "281815554313-ohqr4ujmsdtmqd78120r8jvtn4n32j8q.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
